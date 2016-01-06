@@ -1,0 +1,10 @@
+unity
+visual-studio-code
+cyberduck
+sophos-anti-virus-home-edition
+inkscape
+gimp
+evernote
+google-drive
+google-chrome
+google-japanese-ime
