@@ -21,10 +21,10 @@ brew cleanup
 if hash brew-cask 2>/dev/null; then
     :
 else
-    brew install caskroom/cask/brew-cask;
-    brew-cask doctor;
+    brew tap caskroom/cask;
+    brew cask doctor;
 fi
 
 # Install Cask requirements
-cat cask-requirements.txt | xargs brew-cask install
-brew-cask cleanup;
+cat cask-requirements.txt | xargs brew cask install
+brew cask cleanup;
