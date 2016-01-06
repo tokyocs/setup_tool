@@ -2,7 +2,7 @@
 ### TCS ICTの学びにおける月一回のアップデートを行うためのツール
 ### 1. 使い方：フォルダをダウンロードし、下記をTerminalで実行するだけ。
 ```
-tcs$ sh update.sh
+tcs$ sh init.sh
 ```
 
 ### 2. インストールされるソフトウェアリスト
@@ -20,5 +20,10 @@ tcs$ sh update.sh
 * Google Chrome `brew cask install google-chrome`
 * Google Japanese IME `brew cask install google-japanese-ime`
 
-### 3. Versions
-* 201601061413
+### 3. ディレクトリ構成
+```
+./README.md # README
+./init.sh #　実行するファイル
+./brew-requirements.txt # Homebrewでインストールするソフトリスト
+./cask-requirements.txt # Brew-Caskでインストールするソフトリスト
+```
