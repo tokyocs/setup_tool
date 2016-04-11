@@ -13,18 +13,6 @@ else
     </dev/null
     brew doctor;
 fi
-# Install Homebrew requirements
-cat brew-requirements.txt | xargs brew install
-brew cleanup
 
-# Install or update Cask
-if hash brew-cask 2>/dev/null; then
-    :
-else
-    brew tap caskroom/cask;
-    brew cask doctor;
-fi
-
-# Install Cask requirements
-cat cask-requirements.txt | xargs brew cask install
-brew cask cleanup;
+brew tap Homebrew/bundle
+brew bundle

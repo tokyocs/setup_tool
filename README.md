@@ -12,18 +12,19 @@ tcs$ sh init.sh
 * Unity `brew cask install unity`
 * Visual Studio Code `brew cask install visual-studio-code`
 * cyberduck `brew cask install cyberduck`
-* Sophos Anti-Virus `brew cask install sophos-anti-virus-home-edition`
 * InkScape `brew cask install inkscape`
 * Gimp `brew cask install gimp`
 * Evernote `brew cask install evernote`
 * Google Drive `brew cask install google-drive`
 * Google Chrome `brew cask install google-chrome`
 * Google Japanese IME `brew cask install google-japanese-ime`
+* Firefox `brew cask install firefox`
+* Caffeine `brew cask install caffeine`
+* Skype `brew cask install skype`
 
 ### 3. ディレクトリ構成
 ```
 ./README.md # README
 ./init.sh #　実行するファイル
-./brew-requirements.txt # Homebrewでインストールするソフトリスト
-./cask-requirements.txt # Brew-Caskでインストールするソフトリスト
+./Brewfile
 ```
