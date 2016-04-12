@@ -1,7 +1,7 @@
 brew 'git'
 cask_args appdir: '/Applications'
 tap 'caskroom/cask'
-cask 'xquarts'
+cask 'xquartz'
 cask 'unity'
 cask 'visual-studio-code'
 cask 'cyberduck'
