@@ -21,6 +21,8 @@ tcs$ sh init.sh
 * Firefox `brew cask install firefox`
 * Caffeine `brew cask install caffeine`
 * Skype `brew cask install skype`
+* Atom `brew cask install atom`
+* SoundFlower `brew cask install soundflower`
 
 ### 3. ディレクトリ構成
 ```
