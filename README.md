@@ -25,17 +25,23 @@ tcs$ sh init.sh
 * Atom `brew cask install atom`
 * SoundFlower `brew cask install soundflower`
 
-### 3. ディレクトリ構成
-```
-./README.md # README
-./init.sh #　実行するファイル
-./Brewfile
-```
-
 ## B. vimの設定を行う
 ### vim（テキストエディタ）の設定を簡単にするツール
 ### NeoBundleを使って拡張機能をインストール
 ```
-cd .vim
+cd vim
 sh init.sh
 ```
+
+
+## X. ディレクトリ構成
+```
+./README.md # README
+./init.sh #　実行するファイル
+./Brewfile
+./vim
+./vim/vimrc # vim設定ファイル
+./vim/init.sh # vim設定ツール
+```
+
+
