@@ -1,5 +1,6 @@
 ## TCS MacBook アップデータツール
-### TCS ICTの学びにおける月一回のアップデートを行うためのツール
+### TCS ICTの学びにおけるアップデートを行うためのツール
+## A. Homebrewを使ったソフトウェア管理
 ### 1. 使い方：フォルダをダウンロードし、下記をTerminalで実行するだけ。
 ```
 tcs$ sh init.sh
@@ -29,4 +30,12 @@ tcs$ sh init.sh
 ./README.md # README
 ./init.sh #　実行するファイル
 ./Brewfile
+```
+
+## B. vimの設定を行う
+### vim（テキストエディタ）の設定を簡単にするツール
+### NeoBundleを使って拡張機能をインストール
+```
+cd .vim
+sh init.sh
 ```
